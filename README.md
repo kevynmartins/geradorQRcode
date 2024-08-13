@@ -201,7 +201,7 @@ qrinput.addEventListener('keyup', () => {
 
 - **Geração do QR Code**:
   - Ao clicar no botão, o script verifica se há algum valor no campo de entrada. Se não houver, um alerta é exibido.
-  - Caso o campo esteja preenchido, o QR code é gerado utilizando a API `qrserver.com`, e a imagem resultante é exibida.
+  - Caso o campo esteja preenchido, o QR code é gerado utilizando a API `(http://goqr.me/de/api/doc/create-qr-code/)`, e a imagem resultante é exibida.
 
 - **Atualização do Contêiner**:
   - Quando o QR code é gerado, a classe `.active` é adicionada ao contêiner, expandindo-o para mostrar o código.
